@@ -1,0 +1,15 @@
+citHeader("To cite 'cpa' in a publication use:")
+
+citEntry(entry="Article",
+	title = "Compost amendments in agricultural ecosystems: confirmatory
+  path analysis to clarify the effects on soil chemical and biological
+  properties.",
+        author = personList(as.person("Alessandro Bellino"),as.person("Daniela Baldantoni"), as.person("Flavia De Nicola"), as.person("Paola Iovieno"), as.person("Massimo Zaccardelli"), as.person("Anna Alfani")),
+	journal = "Journal of Agricultural Science",
+  	year = "in press",
+	volume = "",
+	number = "",
+        pages = "",
+        textVersion = "Bellino A, Baldantoni D, De Nicola F, Iovieno P, Zaccardelli M, Alfani A. in press. Compost amendments in agricultural ecosystems: confirmatory path analysis to clarify the effects on soil chemical and biological properties. Journal of Agricultural Science")
+
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("cpa")
