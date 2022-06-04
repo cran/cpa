@@ -4,7 +4,7 @@ cpa <- function(){
 
     X=V=A=NULL
     rm(X, V, A)
-    
+
 #    Read and store data
 
 OpenX <- function()  {
@@ -110,7 +110,7 @@ OnOK <- function(){
 	A <- as.matrix(A)
 
         #    (1) Find all the variable pairs that do not share an interaction and store them in a dataframe
-        
+
 	VV <- V
 	AA <- 0
 	BB <- 0
@@ -164,7 +164,7 @@ OnOK <- function(){
 					}
 				}
 				if(CC != 1){
-					parent <- c(parent, A[j,1])        
+					parent <- c(parent, A[j,1])
 				}
 				CC <- 0
 			}
@@ -284,7 +284,7 @@ OnOK <- function(){
                     dcconditions <- c(dcconditions, a)
                 }
 	}
-        
+
         #    (10) Test (with multiple linear models) the direct interactions
 
 	dctests <- list()
@@ -320,7 +320,7 @@ OnOK <- function(){
         assign('dctests_summary', dctests_summary, cpa.env)
 
         #    (12) Print messages and save the results
-                
+
 	if(P <= 0.05){
 		msg <- paste("\nC = ", round(Cf, 6), "\n\nP = ", round(P, 6), "\n\nAIC = ", round(AIC, 6), '', "\n\n\nThe hypothesized causal model is incompatible with the covariance structure of the data\n\nWould you like to save the results?\n\n")
 	}else{

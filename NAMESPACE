@@ -1,1 +1,6 @@
-exportPattern("^[[:alpha:]]+")
+export(cpa)
+import(tcltk)
+importFrom("grDevices", "palette")
+importFrom("graphics", "arrows", "par", "text")
+importFrom("stats", "as.formula", "coef", "lm", "pchisq")
+importFrom("utils", "read.table")

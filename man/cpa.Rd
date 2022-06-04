@@ -28,7 +28,7 @@ cpa()
   Akaike's Information Criterium according to Shipley (2013), and
   performs the structural regressions implied by the given DAG.  For an 
   in-depth description of the code, the algorithms and the calculations
-  refer to Bellino and co-workers (in press).  
+  refer to Bellino and co-workers (2015).  
   
 }
 \value{
@@ -54,9 +54,9 @@ cpa()
 }
 \references{
   Bellino A, Baldantoni D, De Nicola F, Iovieno P, Zaccardelli M, Alfani
-  A. (in press) Compost amendments in agricultural ecosystems: confirmatory
+  A. (2015) Compost amendments in agricultural ecosystems: confirmatory
   path analysis to clarify the effects on soil chemical and biological
-  properties. \emph{Journal of Agricultural Science}
+  properties. \emph{Journal of Agricultural Science} \bold{253},282--295
 
   Shipley B. (2013) The AIC model selection method applied to path analytic models compared using a d-separation test. \emph{Ecology} \bold{94 (3)}, 560--564. 
 }

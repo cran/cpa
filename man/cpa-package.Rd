@@ -11,8 +11,8 @@
 \tabular{ll}{
 Package: \tab cpa\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-10-12\cr
+Version: \tab 1.0.1\cr
+Date: \tab 2022-06-04\cr
 License: \tab GPL (>= 2)\cr
 }
 For usage, see the documentation of the main function 'cpa'
@@ -24,9 +24,9 @@ Maintainer: Alessandro Bellino <alessandro_bellino@gmx.com>
 }
 \references{  
  Bellino A, Baldantoni D, De Nicola F, Iovieno P, Zaccardelli M, Alfani
- A. (in press) Compost amendments in agricultural ecosystems:
+ A. (2015) Compost amendments in agricultural ecosystems:
  confirmatory path analysis to clarify the effects on soil chemical and
- biological properties. \emph{Journal of Agricultural Science}  
+ biological properties. \emph{Journal of Agricultural Science} \bold{253},282--295 
 }
 \keyword{ package }
 \seealso{

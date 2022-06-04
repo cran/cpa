@@ -6,10 +6,10 @@ citEntry(entry="Article",
   properties.",
         author = personList(as.person("Alessandro Bellino"),as.person("Daniela Baldantoni"), as.person("Flavia De Nicola"), as.person("Paola Iovieno"), as.person("Massimo Zaccardelli"), as.person("Anna Alfani")),
 	journal = "Journal of Agricultural Science",
-  	year = "in press",
-	volume = "",
+  	year = "2015",
+	volume = "253",
 	number = "",
-        pages = "",
-        textVersion = "Bellino A, Baldantoni D, De Nicola F, Iovieno P, Zaccardelli M, Alfani A. in press. Compost amendments in agricultural ecosystems: confirmatory path analysis to clarify the effects on soil chemical and biological properties. Journal of Agricultural Science")
+    pages = "282-295",
+    textVersion = "Bellino A, Baldantoni D, De Nicola F, Iovieno P, Zaccardelli M, Alfani A. 2015. Compost amendments in agricultural ecosystems: confirmatory path analysis to clarify the effects on soil chemical and biological properties. Journal of Agricultural Science 253,282-295")
 
 if(!exists("meta") || is.null(meta)) meta <- packageDescription("cpa")

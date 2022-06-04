@@ -1,0 +1,16 @@
+C
+SO1
+SO2
+SO3
+Zn1
+Zn2
+Zn3
+K1
+K2
+K3
+resp1
+resp2
+resp3
+IPA1
+IPA2
+IPA3
